@@ -1,0 +1,64 @@
+<resources>
+    <string name="app_name">FeedForFree</string>
+
+    //on Boarding Sreen
+    <string name="first_slide_title">Search Your Location</string>
+    <string name="second_slide_title">make a call</string>
+    <string name="third_slide_title">Add missing place</string>
+    <string name="fourth_slide_title">Sit back and enjoy</string>
+
+    //description
+    <string name="first_slide_des">desc1</string>
+    <string name="second_slide_des">desc2</string>
+    <string name="third_slide_des">desc3</string>
+    <string name="fourth_slide_des">desc4</string>
+
+    //button
+    <string name="skip_btn">Skip</string>
+    <string name="next_btn">Next</string>
+    <string name="let_get_started">letget started</string>
+    <!-- TODO: Remove or change this placeholder text -->
+    <string name="hello_blank_fragment">Hello blank fragment</string>
+    <string name="logout">Logout</string>
+    <string name="your_name">Your Name</string>
+    <string name="change_profile">Change Profile</string>
+    <string name="your_email_address">Your Email Address</string>
+    <string name="phone_number">Phone Number</string>
+
+    <string name="phone">Phone</string>
+
+    <string name="email_not_verfied">Email Not Verfied !</string>
+    <string name="verify_now">Verify Now</string>
+    <string name="full_name">Full Name</string>
+    <string name="email">Email</string>
+    <string name="profile">Profile</string>
+    <string name="log_out">Log Out</string>
+    <string name="about_us">about us</string>
+    <string name="todo">TODO</string>
+    <string name="ENDOFLINE">- - - - - - - - - - -</string>
+    <string name="about_feed_for_free">About Feed For Free</string>
+    <string name="feed_for_free_aims_to_provide_food_to_poor_and_needy_people_which_is_leftover_from_parties_and_thus_it_helps_to_reduce_unnecessary_wastage_of_food_and_also_fills_the_stomach_of_hungry_people">Feed For Free aims to provide food to poor and needy people which is leftover from parties and thus it helps to reduce unnecessary wastage of food and also fills the stomach of hungry people.</string>
+    <string name="how_our_team_work">How Our Team Work</string>
+    <string name="using_app_you_call_our_team_us_to_collect_extra_food">Using APP you call our team us to collect extra food</string>
+    <string name="our_team_member_or_ngos_collect_food_according_to_your_given_address_request">Our Team Member or NGOs collect food according to your given address Request</string>
+    <string name="our_team_member_will_examine_the_given_food_after_its_qualify_we_are_ready_to_go">Our Team Member will Examine the given food after its qualify we are ready to go..</string>
+    <string name="finally_your_food_reach_to_destination_the_needy_one_given_by_our_team_member">Finally Your food reach to destination the needy one given by our team member</string>
+    <string name="founders">Founders</string>
+    <string name="ritwik_singh">RITWIK SINGH</string>
+    <string name="tejas_srivastava">TEJAS SRIVASTAVA</string>
+    <string name="himanshu_maurya">HIMANSHU MAURYA</string>
+    <string name="vision">VISION</string>
+    <string name="save_food_share_food">Save Food , Share Food</string>
+    <string name="food_item_s">Food Item(s)</string>
+    <string name="pick_up_food">Pick Up Food</string>
+    <string name="donor_food_details">Donor Food Details</string>
+    <string name="donor_full_name">Donor Full Name</string>
+    <string name="quantity_50_person">Quantity :50 person</string>
+    <string name="pick_up_day_dd_mm_yyyy">Pick Up Day(dd/mm/yyyy)</string>
+    <string name="prefered_time_between_hh_am_hh_pm">Prefered Time(between hh am-hh pm)</string>
+    <string name="phonenumber">PhoneNumber</string>
+    <string name="pick_up_address">Pick Up Address</string>
+
+
+
+</resources>

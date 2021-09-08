@@ -1,0 +1,39 @@
+{
+  "project_info": {
+    "project_number": "517836000875",
+    "project_id": "feed-for-free",
+    "storage_bucket": "feed-for-free.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:517836000875:android:7c5e3ef8a4a207fbe16b2e",
+        "android_client_info": {
+          "package_name": "com.example.feedforfree"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "517836000875-jbplhnr2qov1au4br4e3iv993r9i9jga.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyDVKN4JaiauoGsn6Ttnm4bXED7mNpZe55w"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "517836000875-jbplhnr2qov1au4br4e3iv993r9i9jga.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

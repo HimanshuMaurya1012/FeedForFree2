@@ -1,0 +1,286 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.drawerlayout.widget.DrawerLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".User.Favourite"
+    android:id="@+id/drawerlayout"
+    android:background="#ffffff">
+
+    <RelativeLayout
+        android:layout_width="300dp"
+        android:layout_height="match_parent"
+        android:layout_gravity="start"
+        android:background="@android:color/background_light">
+
+        <include
+            layout="@layout/main_nav_drawer"/>
+
+    </RelativeLayout>
+    <ScrollView
+        android:layout_width="wrap_content"
+        android:layout_height="match_parent"
+        android:fillViewport="true">
+
+
+        <androidx.constraintlayout.widget.ConstraintLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content">
+
+            <ImageView
+                android:id="@+id/imageView6"
+                android:layout_width="156dp"
+                android:layout_height="130dp"
+                android:layout_marginTop="36dp"
+                android:contentDescription="@string/todo"
+                app:layout_constraintEnd_toEndOf="parent"
+                app:layout_constraintHorizontal_bias="0.498"
+                app:layout_constraintStart_toStartOf="parent"
+                app:layout_constraintTop_toTopOf="parent"
+                app:srcCompat="@drawable/feed4freelogo"
+                tools:ignore="MissingConstraints" />
+
+            <TextView
+                android:id="@+id/textView"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="48dp"
+                android:text="@string/about_feed_for_free"
+                android:textSize="30sp"
+                android:textColor="#CC0000"
+
+                android:textStyle="bold"
+                app:layout_constraintEnd_toEndOf="@+id/textView13"
+                app:layout_constraintHorizontal_bias="0.469"
+                app:layout_constraintStart_toStartOf="@+id/textView13"
+                app:layout_constraintTop_toBottomOf="@+id/textView13" />
+
+            <TextView
+                android:id="@+id/textView2"
+                android:layout_width="309dp"
+                android:layout_height="179dp"
+                android:layout_marginTop="56dp"
+                android:text="@string/feed_for_free_aims_to_provide_food_to_poor_and_needy_people_which_is_leftover_from_parties_and_thus_it_helps_to_reduce_unnecessary_wastage_of_food_and_also_fills_the_stomach_of_hungry_people"
+                android:textColor="#000000"
+                android:textSize="20sp"
+                app:layout_constraintEnd_toEndOf="@+id/textView"
+                app:layout_constraintHorizontal_bias="0.533"
+                app:layout_constraintStart_toStartOf="@+id/textView"
+                app:layout_constraintTop_toBottomOf="@+id/textView" />
+
+            <TextView
+                android:id="@+id/textView3"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="52dp"
+                android:text="@string/how_our_team_work"
+                android:textSize="30sp"
+                android:textColor="#CC0000"
+                android:textStyle="bold"
+                app:layout_constraintEnd_toEndOf="@+id/textView2"
+                app:layout_constraintHorizontal_bias="0.53"
+                app:layout_constraintStart_toStartOf="@+id/textView2"
+                app:layout_constraintTop_toBottomOf="@+id/textView2" />
+
+            <ImageView
+                android:id="@+id/imageView5"
+                android:layout_width="229dp"
+                android:layout_height="213dp"
+                android:layout_marginTop="12dp"
+                app:layout_constraintEnd_toEndOf="@+id/textView3"
+                app:layout_constraintHorizontal_bias="0.448"
+                app:layout_constraintStart_toStartOf="@+id/textView3"
+                app:layout_constraintTop_toBottomOf="@+id/textView3"
+                app:srcCompat="@drawable/dashboardfun"
+                android:contentDescription="@string/todo" />
+
+            <TextView
+                android:id="@+id/textView4"
+                android:layout_width="289dp"
+                android:layout_height="90dp"
+                android:layout_marginTop="48dp"
+                android:text="@string/using_app_you_call_our_team_us_to_collect_extra_food"
+                android:textSize="20sp"
+                android:textColor="#000000"
+                app:layout_constraintEnd_toEndOf="@+id/imageView5"
+                app:layout_constraintHorizontal_bias="0.503"
+                app:layout_constraintStart_toStartOf="@+id/imageView5"
+                app:layout_constraintTop_toBottomOf="@+id/imageView5" />
+
+            <ImageView
+                android:id="@+id/imageView7"
+                android:layout_width="304dp"
+                android:layout_height="154dp"
+                android:layout_marginTop="40dp"
+                app:layout_constraintEnd_toEndOf="parent"
+                app:layout_constraintHorizontal_bias="0.0"
+                app:layout_constraintStart_toStartOf="@+id/textView4"
+                app:layout_constraintTop_toBottomOf="@+id/textView4"
+                app:srcCompat="@drawable/food_donor"
+                android:contentDescription="@string/todo" />
+
+            <TextView
+                android:id="@+id/textView5"
+                android:layout_width="306dp"
+                android:layout_height="76dp"
+                android:layout_marginTop="60dp"
+                android:text="@string/our_team_member_or_ngos_collect_food_according_to_your_given_address_request"
+                android:textSize="20sp"
+                android:textColor="#000000"
+                app:layout_constraintEnd_toEndOf="@+id/imageView7"
+                app:layout_constraintHorizontal_bias="0.0"
+                app:layout_constraintStart_toStartOf="@+id/imageView7"
+                app:layout_constraintTop_toBottomOf="@+id/imageView7" />
+
+            <ImageView
+                android:id="@+id/imageView8"
+                android:layout_width="322dp"
+                android:layout_height="122dp"
+                android:layout_marginTop="68dp"
+                app:layout_constraintEnd_toEndOf="@+id/textView5"
+                app:layout_constraintHorizontal_bias="0.562"
+                app:layout_constraintStart_toStartOf="@+id/textView5"
+                app:layout_constraintTop_toBottomOf="@+id/textView5"
+                app:srcCompat="@drawable/checkingandpacking"
+                android:contentDescription="@string/todo" />
+
+            <TextView
+                android:id="@+id/textView6"
+                android:layout_width="301dp"
+                android:layout_height="87dp"
+                android:layout_marginTop="50dp"
+                android:text="our team member will examine the given food after its quality checkup we are ready to go"
+                android:textColor="#000000"
+                android:textSize="20sp"
+                app:layout_constraintEnd_toEndOf="@+id/imageView8"
+                app:layout_constraintHorizontal_bias="0.531"
+                app:layout_constraintStart_toStartOf="@+id/imageView8"
+                app:layout_constraintTop_toBottomOf="@+id/imageView8" />
+
+            <ImageView
+                android:id="@+id/imageView9"
+                android:layout_width="349dp"
+                android:layout_height="173dp"
+                android:layout_marginTop="56dp"
+                app:layout_constraintEnd_toEndOf="@+id/textView6"
+                app:layout_constraintStart_toStartOf="@+id/textView6"
+                app:layout_constraintTop_toBottomOf="@+id/textView6"
+                app:srcCompat="@drawable/giving_food"
+                android:contentDescription="@string/todo" />
+
+            <TextView
+                android:id="@+id/textView7"
+                android:layout_width="297dp"
+                android:layout_height="88dp"
+                android:layout_marginTop="50dp"
+                android:text="Finally your food reach to the destination given by our team member"
+                android:textColor="#000000"
+                android:textSize="20sp"
+                app:layout_constraintEnd_toEndOf="@+id/imageView9"
+                app:layout_constraintStart_toStartOf="@+id/imageView9"
+                app:layout_constraintTop_toBottomOf="@+id/imageView9" />
+
+            <TextView
+                android:id="@+id/textView8"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="40dp"
+                android:text="@string/founders"
+                android:fontFamily="@font/bungee"
+                android:textColor="#CC0000"
+                android:textSize="50sp"
+                android:textStyle="bold"
+                app:layout_constraintEnd_toEndOf="@+id/textView7"
+                app:layout_constraintStart_toStartOf="@+id/textView7"
+                app:layout_constraintTop_toBottomOf="@+id/textView7" />
+
+            <TextView
+                android:id="@+id/textView9"
+                android:layout_width="328dp"
+                android:layout_height="74dp"
+                android:layout_marginTop="40dp"
+                android:fontFamily="@font/bungee"
+                android:text="@string/himanshu_maurya"
+                android:textColor="#000000"
+                android:textSize="30sp"
+                android:textStyle="italic"
+                app:layout_constraintEnd_toEndOf="@+id/textView8"
+                app:layout_constraintStart_toStartOf="@+id/textView8"
+                app:layout_constraintTop_toBottomOf="@+id/textView8" />
+
+            <TextView
+                android:id="@+id/textView10"
+                android:layout_width="264dp"
+                android:layout_height="74dp"
+                android:layout_marginTop="40dp"
+                android:fontFamily="@font/bungee"
+                android:text="@string/ritwik_singh"
+                android:textColor="#000000"
+                android:textSize="30sp"
+                android:textStyle="italic"
+                app:layout_constraintEnd_toEndOf="@+id/textView9"
+                app:layout_constraintStart_toStartOf="@+id/textView9"
+                app:layout_constraintTop_toBottomOf="@+id/textView9" />
+
+            <TextView
+                android:id="@+id/textView11"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="40dp"
+                android:text="@string/tejas_srivastava"
+                android:fontFamily="@font/bungee"
+                android:textColor="#000000"
+                android:textSize="30sp"
+                android:textStyle="italic"
+                app:layout_constraintEnd_toEndOf="@+id/textView10"
+                app:layout_constraintStart_toStartOf="@+id/textView10"
+                app:layout_constraintTop_toBottomOf="@+id/textView10" />
+
+            <TextView
+                android:id="@+id/textView12"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="32dp"
+                android:text="@string/vision"
+                android:textColor="#CC0000"
+                android:textSize="50sp"
+                android:textStyle="bold"
+                app:layout_constraintEnd_toEndOf="@+id/imageView6"
+                app:layout_constraintStart_toStartOf="@+id/imageView6"
+                app:layout_constraintTop_toBottomOf="@+id/imageView6" />
+
+            <TextView
+                android:id="@+id/textView13"
+                android:layout_width="323dp"
+                android:layout_height="51dp"
+                android:layout_marginTop="32dp"
+                android:text="@string/save_food_share_food"
+                android:textSize="30sp"
+                android:textColor="#000000"
+                android:textStyle="italic"
+                app:layout_constraintEnd_toEndOf="@+id/textView12"
+                app:layout_constraintHorizontal_bias="0.496"
+                app:layout_constraintStart_toStartOf="@+id/textView12"
+                app:layout_constraintTop_toBottomOf="@+id/textView12" />
+
+            <TextView
+                android:id="@+id/textView14"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="35dp"
+                android:text="@string/ENDOFLINE"
+                android:textColor="#CC0000"
+                app:layout_constraintEnd_toEndOf="@+id/textView11"
+                app:layout_constraintStart_toStartOf="@+id/textView11"
+                app:layout_constraintTop_toBottomOf="@+id/textView11" />
+
+
+        </androidx.constraintlayout.widget.ConstraintLayout>
+
+    </ScrollView>
+
+
+
+
+</androidx.drawerlayout.widget.DrawerLayout>

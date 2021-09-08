@@ -1,0 +1,197 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/bg5"
+    tools:context=".User.register">
+    <androidx.constraintlayout.widget.ConstraintLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+    <EditText
+        android:id="@+id/DonorPhoneNo"
+        android:layout_width="0dp"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="20dp"
+        android:layout_marginTop="10dp"
+        android:layout_marginEnd="20dp"
+        android:layout_marginBottom="10dp"
+        android:autofillHints=""
+        android:ems="10"
+        android:hint="@string/phonenumber"
+        android:textColor="#000000"
+        android:textColorHint="#000000"
+        android:inputType="phone"
+        app:layout_constraintBottom_toTopOf="@+id/donorpreferedtime"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/donorpickUpaddress" />
+
+    <EditText
+        android:id="@+id/donorpickUpaddress"
+        android:layout_width="0dp"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="20dp"
+        android:layout_marginTop="10dp"
+        android:layout_marginEnd="20dp"
+        android:layout_marginBottom="10dp"
+        android:ems="10"
+        android:hint="@string/pick_up_address"
+        android:textColor="#000000"
+        android:textColorHint="#000000"
+        android:importantForAutofill="no"
+        android:inputType="text"
+        app:layout_constraintBottom_toTopOf="@+id/DonorPhoneNo"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/donorFItem" />
+
+    <EditText
+        android:id="@+id/donorFItem"
+        android:layout_width="0dp"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="20dp"
+        android:layout_marginTop="10dp"
+        android:layout_marginEnd="20dp"
+        android:layout_marginBottom="10dp"
+        android:ems="10"
+        android:hint="@string/food_item_s"
+        android:textColor="#000000"
+        android:textColorHint="#000000"
+        android:importantForAutofill="no"
+        android:inputType="textPersonName"
+        app:layout_constraintBottom_toTopOf="@+id/donorpickUpaddress"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/donorFname" />
+
+        <TextView
+            android:id="@+id/donortitle"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginBottom="5dp"
+            android:text="@string/donor_food_details"
+            android:textColor="#000000"
+            android:textSize="20sp"
+            app:layout_constraintBottom_toTopOf="@+id/donorFname"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toBottomOf="@+id/imageView3" />
+
+        <EditText
+            android:id="@+id/donorFname"
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_marginStart="20dp"
+            android:layout_marginTop="10dp"
+            android:layout_marginEnd="20dp"
+            android:layout_marginBottom="5dp"
+            android:ems="10"
+            android:hint="@string/donor_full_name"
+            android:textColor="#000000"
+            android:textColorHint="#000000"
+            android:importantForAutofill="no"
+            android:inputType="textPersonName"
+            app:layout_constraintBottom_toTopOf="@+id/donorFItem"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintHorizontal_bias="0.0"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toBottomOf="@+id/donortitle" />
+
+        <EditText
+        android:id="@+id/donorpreferedtime"
+        android:layout_width="0dp"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="20dp"
+        android:layout_marginTop="10dp"
+        android:layout_marginEnd="20dp"
+        android:layout_marginBottom="10dp"
+        android:ems="10"
+        android:hint="@string/prefered_time_between_hh_am_hh_pm"
+            android:textColorHint="#000000"
+            android:textColor="#000000"
+        android:importantForAutofill="no"
+        android:inputType="text"
+        app:layout_constraintBottom_toTopOf="@+id/donorpickupday"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/DonorPhoneNo" />
+
+    <EditText
+        android:id="@+id/donorpickupday"
+        android:layout_width="0dp"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="20dp"
+        android:layout_marginTop="10dp"
+        android:layout_marginEnd="20dp"
+        android:layout_marginBottom="10dp"
+        android:ems="10"
+        android:hint="@string/pick_up_day_dd_mm_yyyy"
+        android:textColor="#000000"
+        android:textColorHint="#000000"
+        android:importantForAutofill="no"
+        android:inputType="phone"
+        app:layout_constraintBottom_toTopOf="@+id/donorquantity"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/donorpreferedtime" />
+
+
+        <Button
+            android:id="@+id/pickupbtn"
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_marginStart="20dp"
+            android:layout_marginTop="5dp"
+            android:layout_marginEnd="20dp"
+            android:layout_marginBottom="40dp"
+            android:text="@string/pick_up_food"
+            app:backgroundTint="#F44336"
+            app:layout_constraintBottom_toBottomOf="parent"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintHorizontal_bias="1.0"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toBottomOf="@+id/donorquantity" />
+
+        <ImageView
+            android:id="@+id/imageView3"
+            android:layout_width="113dp"
+            android:layout_height="86dp"
+            android:layout_marginTop="56dp"
+            android:contentDescription="@string/todo"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toBottomOf="@+id/button3"
+            app:srcCompat="@drawable/feed4freelogo" />
+
+        <EditText
+        android:id="@+id/donorquantity"
+        android:layout_width="0dp"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="20dp"
+        android:layout_marginTop="10dp"
+        android:layout_marginEnd="20dp"
+        android:layout_marginBottom="10dp"
+        android:hint="@string/quantity_50_person"
+            android:textColorHint="#000000"
+            android:textColor="#000000"
+        android:importantForAutofill="no"
+        android:inputType="number"
+        app:layout_constraintBottom_toTopOf="@+id/pickupbtn"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/donorpickupday" />
+
+        <Button
+            android:id="@+id/button3"
+            android:layout_width="84dp"
+            android:layout_height="39dp"
+            android:layout_marginTop="30dp"
+            android:text="Back"
+            app:layout_constraintEnd_toEndOf="@+id/imageView3"
+            app:layout_constraintStart_toStartOf="@+id/imageView3"
+            app:layout_constraintTop_toTopOf="parent" />
+</androidx.constraintlayout.widget.ConstraintLayout>
+
+</ScrollView>
